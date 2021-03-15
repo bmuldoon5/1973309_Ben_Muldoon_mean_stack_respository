@@ -1,0 +1,11 @@
+** note my word is not working
+
+Project details---
+
+https://github.com/bmuldoon5/1973309_Ben_Muldoon_mean_stack_respository.git
+
+-Alert Button
+-Pre-text field
+-labeled button with submit button
+-picture
+-box with text
