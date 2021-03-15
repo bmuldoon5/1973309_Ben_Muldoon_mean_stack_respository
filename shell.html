@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+<head>
+    <meta charset= "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content= "If-edge">
+    <meta name = "viewpoint" content="width=device-width, initial-scale=1.0">
+    <title> Document </title>
+    <link rel= "stylesheet" href = "shell.css">
+
+    <!--this is the ball you can move-->
+    <style>
+        #ball{
+            position: absolute;
+            left:0;
+            top:0;
+            width: 40px;
+            height: 40pc;
+            transition: all 1s;
+        }
+    </style>
+    <!--end of ball size-->
+
+
+</head>
+
+<body>
+
+
+    <!--This is a button right here that creates an alert-->
+    <button onclick="myFunction()">Name of Alert Button</button>
+
+    <script>
+        function myFunction() {
+          alert("Enter Alert Message Here");
+        }
+    </script>
+    <!-- End of button -->
+
+    <br/>
+    <br/>
+
+    <!--generic button-->
+    <input type="button" value="Write Message here for Button" onclick="display()"/>
+    <!--end of button-->
+
+    <br/> 
+    <br/>
+
+    <!--pretext box-->
+    <input type="text" value="Put your pretext in this box" onmousemove="display()"/>
+    <!--end-->
+
+    <br/>
+    <br/>
+    
+    <!--button where you can create a dropdown menu-->
+    <label> Enter Label of What you want them to input </label>
+    <input type="text" name = "user" id="user"/>
+    <input type="button" value="Name this button to submit" onclick= "addName()"/>
+    <!--end of button-->
+
+    <script>
+    // Get the button, and when the user clicks on it, execute myFunction
+    document.getElementById("myBtn").onclick = function() {myFunction()};
+    </script>
+
+    <br/>
+    <br/>
+    <br/>
+
+    <!--You can add what you want into the box--> 
+    <div id="d1">
+        Enter what you want to put in the box here
+    </div>
+    <!--End of box, more details in css file-->
+
+    <br/>
+    <br/>
+
+    <!--Enter the URL of the image you want to add to the screen-->
+    <img src = "Enter the url of the image you want" id="image">
+    <!--End of image-->
+
+</body>
+
+
+
+</html>
