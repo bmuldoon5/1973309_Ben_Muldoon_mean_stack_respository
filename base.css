@@ -1,0 +1,14 @@
+/*this is used to change the color, dimensions of the box you can make */
+div{ 
+    padding: 30px;  
+    border: solid black 2px;
+    margin: 10px;
+    width: 400px;
+    height: 500px;
+    float: left;
+}
+
+#d1{
+    margin: 70px;
+    transform: scale (2,2);
+}

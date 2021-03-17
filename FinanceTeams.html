@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+<head>
+    <meta charset= "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content= "If-edge">
+    <meta name = "viewpoint" content="width=device-width, initial-scale=1.0">
+    <title> Document </title>
+    <link rel= "stylesheet" href = "base.css">
+    <script src="budget.js"></script>
+
+    Program Managers
+
+</head>
+
+<body>
+
+    <!--You can add what you want into the box--> 
+    <div id="d1">
+        Annual Budget
+
+    </div>
+    <!--End of box, more details in css file-->
+
+    <br/>
+    <br/>
+
+    <table id=details>
+        <tr>
+            <th>Client Name</th>
+            <th>Project Name</th>
+            <th>Budget</th>
+        </tr>
+    </table>
+
+    <form>
+        <input type="button" value="retrieve from session" onclick="retrieveFromSession()"/>
+        <input type="button" value="Add Details" onclick="onFormSubmit()" />
+    </form>
+</body>
+
+
+
+</html>
