@@ -1,0 +1,43 @@
+/*this is used to change the color, dimensions of the box you can make */
+div{ 
+    padding: 30px;  
+    border: solid black 2px;
+    margin: 10px;
+    width: 1000px;
+    height: 1000px;
+    float: left;
+
+    background-color: beige;
+}
+
+p{
+    text-decoration: underline;
+    text-decoration-color:blue;
+    color: blue;
+    text-align: center;
+    white-space: pre-wrap;
+}
+
+#a {
+    float: right;
+}
+
+body{
+    background-image: url("https://cdn.nextgov.com/media/img/upload/2020/10/19/NGspace20201019/860x394.jpg");
+}
+
+table{
+    table-layout: fixed;
+}
+
+td{
+    word-wrap:break-word;
+}
+
+hr.rounded{
+    border-top:8px solid #bbb;
+    border-radius: 5px;
+}
+
+
+

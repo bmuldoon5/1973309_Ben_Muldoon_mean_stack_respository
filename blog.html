@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+    <head>
+        <meta charset= "UTF-8">
+        <meta http-equiv = "X-UA-Compatible" content= "If-edge">
+        <meta name = "viewpoint" content="width=device-width, initial-scale=1.0">
+        <title> Document </title>
+        <link rel="stylesheet" href = "blog.css">
+        <script src= "blog.js"></script>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+
+    <div class = "container">
+        <p>Simply Blogging</p>
+        <br/>
+        <br/>
+
+        <element id="a">
+        <nav>
+                <a href="">Add Blog</a> |
+                <a href="">Home</a> |
+                <a href="">AboutUs</a> |
+                <a href="">Contacts</a>
+        </nav>
+        </element>
+
+        <br/>
+
+        <pre>Title      <input type="text" name ="title" id="title"></pre>
+        <pre>Article   <textarea rows = "5" cols = "60" name = "article" id="article"></textarea></pre>
+        <pre>Add Image  <input type="file" name="image" id="image"></pre>
+
+        <br/>
+        <br/>
+
+        <input type="button" value = "addBlog" onclick="onFormSubmit()">
+        <input type= "button" value = "Store Session" onclick= "storeInSession()">
+        <input type= "button" value = "Retrieve Session" onclick= "retrieveFromSession()">
+
+        <br/>
+        <br/>
+
+        <table id=details>
+            <tc>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tc>
+        </table>
+
+        <!--
+        <script type="text/JavaScript">
+            retrieveFromSession();
+        </script>
+        -->
+        
+    </div>
+    <!--End of box, more details in css file-->
+
+
+
